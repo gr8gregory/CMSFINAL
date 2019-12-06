@@ -1,5 +1,6 @@
 /*	Filename: sound.h
-	Author: Michael Galle
+	Author: Gregory Huras, Caleb Hoeksema
+	Copyright: Micheal Galle
 	Date: 2019
 	Details: Interface - Contains prototypes for Windows sound API (sound recording and playback functions)
 */

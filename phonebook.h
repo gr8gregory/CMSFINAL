@@ -1,3 +1,9 @@
+/*
+
+phonebook.h - Interface for phonebook.cpp
+
+*/
+
 #pragma once
 
 // an array of structs from 0 - 254 stucts 

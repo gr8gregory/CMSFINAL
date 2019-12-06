@@ -1,7 +1,11 @@
+/*
+	Frame.h - Interface for the functions and ADT's for frame and the payload
+*/
+
+
 #pragma once
 #include "queues.h"
 #include "sound.h"
-#include "rle.h"
 
 typedef struct header Header;
 typedef struct  payloadText plText;

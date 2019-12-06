@@ -1,3 +1,10 @@
+/*
+
+PhoneBook.cpp - Implementation of functions for the phonebook
+
+*/
+
+
 #include "RS232Comm.h"
 #include "menu.h"
 #include "phonebook.h"

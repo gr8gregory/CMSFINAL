@@ -1,12 +1,13 @@
 /*	Filename: sound.cpp
-Author: Michael Galle
+Author: Gregory Huras, Caleb Hoeksema
+Copyright - Micheal Galle
 Date: 2019
 Details: Implementation - Contains functions for Windows sound API (sound recording & playback)
 */
+
+
 #include "OperatingSystem.h"
 #ifdef Windows
-
-
 
 #pragma comment(lib, "Ws2_32.lib")	   // Make sure we are linking against the Ws2_32.lib library
 #pragma comment(lib, "Winmm.lib")      // Make sure we are linking against the Winmm.lib library - some functions/symbols from this library (Windows sound API) are used

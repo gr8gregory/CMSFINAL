@@ -1,3 +1,13 @@
+/*
+
+ * RS232.cpp - This file sends and receives audio and text files VIA RS232
+
+ */
+
+
+
+
+
 #include "OperatingSystem.h"
 
 
@@ -20,12 +30,12 @@ int SettingFlag;
 int recordTime;
 HANDLE RCom;										// Pointer to recieving COM port
 HANDLE TCom;										// Pointer to sending COM port
-int nComRate = 9600;								// Baud (Bit) rate in bits/second 
+int nComRate = 9600 * 3;							// Baud (Bit) rate in bits/second 
 int nComBits = 8;									// Number of bits per frame
 COMMTIMEOUTS timeout;
 
-char COMPORTT[5] = "COM7";
-char COMPORTR[5] = "COM5";
+char COMPORTT[5] = "COM5";
+char COMPORTR[5] = "COM7";
 int flagDiag = false;
 int flagMode = false;
 

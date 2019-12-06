@@ -1,10 +1,17 @@
+/*
+
+ * MessageAppend.cpp - This appends the the payload and the header into one packet of data
+
+*/
+
+
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
 #include "Frame.h"
 #include "sound.h"
 #include "RS232Comm.h"
-#include "crc.h"
 
 #define _CRT_SECURE_NO_WARNINGS
 #pragma warning (disable: 4996)
